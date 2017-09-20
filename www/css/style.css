@@ -1,0 +1,44 @@
+/* Empty. Add your own CSS if you like */
+
+.custom-nav-bar{
+    background-color: #564787!important;
+}
+.custom-background {
+    background-color: #9AD4D6!important; 
+}
+
+.custom-button {
+    background-color: #101935!important;
+    vertical-align: middle!important;
+}
+
+.custom-divider {
+    background-color: #DBCBD8!important;
+}
+
+.custom-text-wrap{
+    background-color: #F2FDFF!important;
+}
+
+.custom-results-button {
+    background-color: #101935!important;
+}
+
+.scroll {
+  /*vertical-align: middle;*/
+  text-align: center;
+}
+
+form label.has-errors {
+  border: 1px solid red;
+}
+
+.description,
+.description-left {
+    background-color: white;
+    padding: 10px;
+    font-size: 1.25em;
+    border-radius: 5px;
+    background-color: #F2FDFF!important; 
+    font-family: "Times New Roman", Times, serif;
+}

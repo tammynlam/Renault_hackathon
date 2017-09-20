@@ -1,0 +1,26 @@
+<ion-view view-title="Question #{{qNumber}}"  hide-back-button="true">
+    <ion-nav-buttons side="left">
+      <button class="button button-icon button-clear icon ion-arrow-left-c" ng-click="goBack()">
+      </button>
+    </ion-nav-buttons>
+    <ion-content class="padding custom-background">
+        <div class="description">Picture yourself in a situation where your wishes differ from that of another person. For each statement choose either A or B. <br><br>Sometimes neither the A nor B statment is typical of your response, but try to choose the one that would seem most likely to be your instinctive response in that situation.</div>
+        
+        <div class="card" ng-click="buttonClicked('A')">
+          <div class="item item-divider custom-divider">
+            Option A
+          </div>
+          <div class="item item-text-wrap custom-text-wrap" type="radio">
+            {{questionA.Text}}
+          </div>
+        </div>  
+        <div class="card" ng-click="buttonClicked('B')">
+          <div class="item item-divider custom-divider">
+            Option B
+          </div>
+          <div class="item item-text-wrap custom-text-wrap" type="radio">
+            {{questionB.Text}}
+          </div>
+        </div>
+    </ion-content>
+</ion-view>
